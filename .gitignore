@@ -1,0 +1,24 @@
+# Python virtual environments & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+venv/
+.venv/
+env/
+
+# Raw dataset files (immutable, downloaded by download.sh)
+raw/
+
+# Pipeline output directory (except sample if specified)
+out/
+!out/sample_clean_1000.jsonl
+
+# Testing & scratch artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+scratch/
+*.tmp
+

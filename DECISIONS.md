@@ -113,3 +113,4 @@ At 2 TB scale on object storage (e.g. S3 / GCS), an in-memory cross-document ded
   1. Neural transliteration back-and-forth model (e.g., Aksharantar) to supplement rule-based cross-script phonetic matching.
   2. Sub-dialect detection (Bhojpuri/Maithili distinction from standard Devanagari Hindi).
 - **Actual Time Spent**: Approximately 3.5 hours of engineering effort.
+

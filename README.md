@@ -76,3 +76,4 @@ python -m unittest discover tests
 - **MinHash + LSH Deduplication**: Sub-quadratic candidate generation using character 3-grams to robustly handle inflectional suffixes and spelling variants.
 - **Cross-Script Contamination Detection**: Phonetically maps Devanagari Hindi into Latin characters to catch cases where a Devanagari eval query leaked as a transliterated Latin string in the training split.
 - **Ledger Reconciliation**: Every input document is tracked with an immutable status (`kept` or `dropped`), stage, and `dup_of` reference. Final ledger counts reconcile with raw counts.
+
